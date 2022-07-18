@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+  string A = "[REDACTED]";
+  string B = "[REDACTED]";
+  string C = "[REDACTED]";
+  string D = "";
+  int sahit = A.size();
+  for(int c = 0; c < sahit; c++){
+    D.push_back(A[c]);
+    D.push_back(B[c]);
+    D.push_back(C[c]);
+  }
+  cout << D;
+}
